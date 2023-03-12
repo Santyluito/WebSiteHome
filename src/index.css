@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border py-5 px-8 rounded-sm font-semibold text-lg;
+  }
+}
+
+/* .App {
+  font-family: "Noto Sans", sans-serif;
+} */
