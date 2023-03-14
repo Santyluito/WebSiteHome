@@ -1,4 +1,5 @@
-import { Contact, Feactures, Gallery, Hero, Navbar } from "./components";
+import { Contact, Feactures, Footer, Gallery, Gallery3, Hero, ImageSlider, Navbar } from "./components";
+import { Feactures2 } from "./components/Feactures2";
 
 function App() {
   return (
@@ -6,8 +7,12 @@ function App() {
       <Navbar />
       <Hero />
       <Feactures />
-      <Gallery />
-      <Contact />
+      <Feactures2 />
+      {/* <Gallery /> */}
+      {/* <ImageSlider /> */}
+      <Gallery3 />
+      {/* <Contact /> */}
+      <Footer />
     </div>
   );
 }

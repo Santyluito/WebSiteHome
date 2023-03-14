@@ -17,8 +17,8 @@ export const Navbar = () => {
 
   return (
     <div className="absolute w-full flex justify-between p-4 items-center">
-      <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-white text-3xl font-Lobster">LM</h1>
-      <IoMenu onClick={handleNav} className=" z-20 cursor-pointer" color="white" size={25} />
+      <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-white text-3xl font-Lobster">LM</h1>
+      <IoMenu onClick={handleNav} className="z-20 cursor-pointer" color="white" size={25} />
       <nav className={nav ? class1 : 'hidden'}>
         <ul className="flex flex-col fixed text-gray-300 left-0 top-0 w-full h-full items-center justify-center gap-8">
           <li className="font-bold text-2xl">Incio</li>
