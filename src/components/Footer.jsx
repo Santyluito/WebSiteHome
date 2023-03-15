@@ -8,62 +8,26 @@ import {
 export const Footer = () => {
   return (
     <section className="w-full mt-24 bg-pink-900 text-gray-300 py-2 px-2">
-      <div className="max-w-screen-2xl mx-auto grid grid-cols-2 md:grid-cols-6 border border-gray-600 py-8 px-4">
-        <div>
-          <h6 className="font-bold uppercase pt-2">Soluctions</h6>
+      <div className="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-3 border border-gray-600 py-8 px-4">
+        <div className="grid place-content-center">
+          <h6 className="font-bold uppercase pt-2">Datos</h6>
           <ul>
-            <li className="py-1">Travel</li>
-            <li className="py-1">Booking</li>
-            <li className="py-1">Flights</li>
-            <li className="py-1">Cruises</li>
-            <li className="py-1">Ground</li>
+            <li className="py-1">Telf: 0995012120</li>
+            <li className="py-1">Direccion: San Isidro del Inca</li>
           </ul>
         </div>
-        <div>
-          <h6 className="font-bold uppercase pt-2">
-            Support
-          </h6>
-          <ul>
-            <li className="py-1">Pricing</li>
-            <li className="py-1">Documentation</li>
-            <li className="py-1">Tours</li>
-            <li className="py-1">Refunds</li>
-          </ul>
-        </div>
-        <div>
-          <h6 className="font-bold uppercase pt-2">
-            Company
-          </h6>
-          <ul>
-            <li className="py-1">About</li>
-            <li className="py-1">Blog</li>
-            <li className="py-1">Jobs</li>
-            <li className="py-1">Press</li>
-            <li className="py-1">Press</li>
-          </ul>
-        </div>
-        <div>
-          <h6 className="font-bold uppercase pt-2">
-            Soluctions
-          </h6>
-          <ul>
-            <li className="py-1">Travel</li>
-            <li className="py-1">Booking</li>
-            <li className="py-1">Flights</li>
-            <li className="py-1">Cruises</li>
-            <li className="py-1">Ground</li>
-          </ul>
-        </div>
-        <div className="col-span-2 py-8 md:pt-2">
-          <p className="font-bold">Subscribe to our newlatters</p>
-          <p className="py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-            commodi?
-          </p>
-          <form action="" className="flex flex-col sm:flex-row">
-            <input className="w-full p-2 mr-4 rounded-md mb-4" type="email" placeholder="Enter email" />
-            <button className="p-2 mb-4 rounded-md hover:shadow-lg hover:shadow-gray-300/50 ease-in-out duration-200">Subscribe</button>
-          </form>
+
+        <div className="grid w-[580px] h-[320px]">
+          <iframe
+            className="rounded-lg items-end grayscale hover:grayscale-0"
+            width="580"
+            height="320"
+            src="https://maps.google.com/maps?width=900&amp;height=500&amp;hl=en&amp;q=-0.14748408746972314%2C%20-78.46198067071154+(Casa%20de%20venta)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+            // framebframeBorderorder="0"
+            scrolling="no"
+            marginHeight="0"
+            marginWidth="0"
+          ></iframe>
         </div>
       </div>
 
