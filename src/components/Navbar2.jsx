@@ -16,12 +16,12 @@ export const Navbar2 = () => {
   return (
     <div className="fixed w-screen z-50">
       <nav className="md:flex justify-between space-y-8 md:space-y-0 bg-white md:bg-white/5 py-8 md:py-1 md:px-10 px-7">
-        <div className="font-bold text-2xl cursor-pointer flex items-center font-Lobster text-gray-800 drop-shadow-lg">
-          <span className="text-3xl text-pink-700 mr-1 md:mr-3 ">
-            <HiHomeModern />
-          </span>
-          Casa en Venta
-        </div>
+        <a href="#" className="font-bold text-2xl cursor-pointer flex items-center font-Lobster text-gray-800 drop-shadow-lg">
+            <span className="text-3xl text-pink-700 mr-1 md:mr-3 ">
+              <HiHomeModern />
+            </span>
+            Casa en Venta
+        </a>
 
         <div className="text-3xl p-1 active:ring active:ring-offset-4 active:ring-pink-700 rounded-full absolute right-6 top-0 cursor-pointer duration-200 md:hidden">
           <span onClick={() => setOpen(!open)}>
