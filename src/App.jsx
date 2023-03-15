@@ -1,17 +1,15 @@
-import { Contact, Feactures, Footer, Gallery, Gallery3, Hero, ImageSlider, Navbar } from "./components";
+import { Contact, Footer, Gallery3, Hero } from "./components";
 import { Feactures2 } from "./components/Feactures2";
+import { Navbar2 } from "./components/Navbar2";
 
 function App() {
   return (
     <div className="App font-OpenSans">
-      <Navbar />
+      <Navbar2 />
       <Hero />
-      <Feactures />
       <Feactures2 />
-      {/* <Gallery /> */}
-      {/* <ImageSlider /> */}
       <Gallery3 />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );

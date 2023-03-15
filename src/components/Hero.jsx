@@ -20,9 +20,11 @@ export const Hero = () => {
               <p className="drop-shadow-2xl py-2 text-xl">
                 En una zona segura y cerca del centro norte de Quito.
               </p>
-              <button className="bg-white text-black hover:bg-white/80 hover:text-gray-700 transition duration-200 mt-4 ">
-                Contáctanos Ahora
-              </button>
+              <a href="#contact">
+                <button className="bg-white text-black hover:bg-white/80 hover:text-gray-700 transition duration-200 mt-4">
+                  Contáctanos Ahora
+                </button>
+              </a>
             </div>
           </div>
         </div>

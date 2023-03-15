@@ -1,6 +1,4 @@
 import HeadersComponents from "../modules/HeadersComponents";
-import casaOut from "../assets/casaOutside.jpg";
-import entrance from "../assets/entrance.jpg";
 import bed1 from "../assets/bed1_1.jpg";
 import kitchen1 from "../assets/kitchen1.jpg";
 import bq from "../assets/parrilla.jpg";

@@ -10,6 +10,7 @@ export const ImageSlider = () => {
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    console.log("🚀 ~ file: ImageSlider.jsx:13 ~ prevSlide ~ newIndex:", newIndex)
     setCurrentIndex(newIndex);
   };
   const nextSlide = () => {
