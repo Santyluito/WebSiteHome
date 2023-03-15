@@ -21,7 +21,7 @@ const SvgIcon = () => {
 
 export const Feactures2 = () => {
   return (
-    <section id="feactures" className="container md:w-10/12 mx-auto pt-20 h-screen">
+    <section id="feactures" className="contents md:w-10/12 mx-auto pt-20 h-screen">
       <HeadersComponents title="La casa tiene las siguientes características." />
 
       <div className="grid md:grid-cols-3 gap-8 place-items-center">

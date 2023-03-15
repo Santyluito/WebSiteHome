@@ -25,7 +25,7 @@ export const Gallery3 = () => {
   }, []);
 
   return (
-    <section id="gallery" className="container mx-auto px-5 py-2 mt-7 lg:px-24">
+    <section id="gallery" className="contents h-full mx-auto px-5 py-2 mt-24  lg:px-24">
       <HeadersComponents title="Galeria" />
       <div className="flex">
         <ul className="flex my-4 mx-auto">
@@ -54,7 +54,7 @@ export const Gallery3 = () => {
         {data.slice(0, 16).map((item) => (
           <div className="w-full" key={item.id}>
             <img
-              className="w-full h-56 object-cover rounded-lg scale-75 translate-x-2 skew-y-2 md:transform-none filter hover:contrast-125 cursor-pointer"
+              className="w-full h-56 object-cover rounded-none md:rounded-lg scale-100 skew-y-2 md:transform-none filter hover:contrast-125 cursor-pointer"
               onClick={() => handleClick(item.id)}
               src={item.image}
               alt={item.title}
