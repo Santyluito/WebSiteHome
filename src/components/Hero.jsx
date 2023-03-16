@@ -18,7 +18,7 @@ export const Hero = () => {
                 Hermosa Casa <span className="text-pink-700">en venta</span>
               </h2>
               <p className="drop-shadow-2xl py-2 text-xl">
-                En una zona segura y cerca del centro norte de Quito.
+                En una zona segura y a minutos del centro norte de Quito.
               </p>
               <a href="#contact">
                 <button className="bg-white text-black hover:bg-white/80 hover:text-gray-700 transition duration-200 mt-4">

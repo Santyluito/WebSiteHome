@@ -4,14 +4,15 @@ import { Navbar2 } from "./components/Navbar2";
 
 function App() {
   return (
-    <div className="App font-OpenSans">
+    <main className="App font-OpenSans">
       <Navbar2 />
       <Hero />
-      <Feactures2 />
       <Gallery3 />
+      <Feactures2 />
       <Contact />
       <Footer />
-    </div>
+      
+    </main>
   );
 }
 

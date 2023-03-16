@@ -1,4 +1,8 @@
 import HeadersComponents from "../modules/HeadersComponents";
+import { BiArea, BiBuilding, BiCalendarAlt, BiCar, BiSun } from "react-icons/bi";
+import { TbBuildingCommunity, TbSoccerField, TbSofa } from "react-icons/tb";
+import { FaChild } from "react-icons/fa";
+import { MdOutlineOutdoorGrill } from "react-icons/md";
 
 const SvgIcon = () => {
   return (
@@ -21,7 +25,7 @@ const SvgIcon = () => {
 
 export const Feactures2 = () => {
   return (
-    <section id="feactures" className="md:w-10/12 mx-auto pt-20 h-screen">
+    <section id="feactures" className="md:w-10/12 mx-auto pt-20 h-fit">
       <HeadersComponents title="La casa tiene las siguientes características." />
 
       <div className="grid md:grid-cols-3 gap-8 place-items-center">
@@ -29,7 +33,9 @@ export const Feactures2 = () => {
           <img className="" src="family.svg" alt="" />
         </div>
         <div className="md:col-span-2 space-y-2 mx-2 mb-4 md:mx-8">
-          <h2 className="mb-4 text-3xl md:text-4xl font-extrabold  text-gray-900 tracking-wider drop-shadow-md">Descripción</h2>
+          <h2 className="mb-4 text-3xl md:text-4xl font-extrabold  text-gray-900 tracking-wider drop-shadow-md">
+            Descripción
+          </h2>
           <p className="text-base text-gray-600">
             Casa en venta, Conjunto Mirador de Amagasi 1, Quito - Pichincha.
           </p>
@@ -64,11 +70,48 @@ export const Feactures2 = () => {
               <li className="flex items-center">
                 <SvgIcon /> PARQUEO
               </li>
-              <li className="flex items-center">
-                <SvgIcon /> ILUMINACION LED
-              </li>
             </ol>
           </div>
+        </div>
+      </div>
+
+      <div className="max-w-5xl mx-auto my-4">
+        <div className="px-6">
+          <ul className="text-sm text-gray-700 font-semibold grid md:grid-cols-3 lg:grid-cols-4 grid-rows-3 grid-flow-row space-y-4">
+            <li className="flex items-center">
+              <BiArea className="text-gray-700 text-xl mr-2" /> 122 M² Totales
+            </li>
+            <li className="flex items-center">
+              <BiArea className="text-gray-700 text-xl mr-2" /> 112 M² Totales
+            </li>
+            <li className="flex items-center">
+              <BiCalendarAlt className="text-gray-700 text-xl mr-2" />11 Años Antigüedad
+            </li>
+            <li className="flex items-center">
+              <BiBuilding className="text-gray-700 text-xl mr-2" /> 3 pisos de la propiedad
+            </li>
+            <li className="flex items-center">
+              <BiCar className="text-gray-700 text-xl mr-2" /> Espacio para 2 autos
+            </li>
+            <li className="flex items-center">
+              <BiSun className="text-gray-700 text-xl mr-2" /> Iluminacion led
+            </li>
+            <li className="flex items-center">
+              <TbSofa className="text-gray-700 text-xl mr-2" /> 5 Ambientes
+            </li>
+            <li className="flex items-center">
+              <TbSoccerField className="text-gray-700 text-xl mr-2" /> Areas verdes
+            </li>
+            <li className="flex items-center">
+              <FaChild className="text-gray-700 text-xl mr-2" /> Areas juegos infantiles
+            </li>
+            <li className="flex items-center">
+              <MdOutlineOutdoorGrill className="text-gray-700 text-xl mr-2" /> Zona Barbecue 
+            </li>
+            <li className="flex items-center">
+              <TbBuildingCommunity className="text-gray-700 text-xl mr-2" /> Casa Comunal
+            </li>
+          </ul>
         </div>
       </div>
     </section>

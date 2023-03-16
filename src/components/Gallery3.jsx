@@ -25,7 +25,7 @@ export const Gallery3 = () => {
   }, []);
 
   return (
-    <section id="gallery" className=" h-full mx-auto px-5 py-2 mt-24  lg:px-24">
+    <section id="gallery" className=" h-full mx-auto px-5 py-2 lg:px-24">
       <HeadersComponents title="Galeria" />
       <div className="flex">
         <ul className="flex my-4 mx-auto">
