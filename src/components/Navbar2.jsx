@@ -9,12 +9,14 @@ let links = [
   { name: "Contactos", link: "#contact" },
 ];
 
-export const Navbar2 = () => {
+export const Navbar2 = ({ isTopOfPage }) => {
+  
   const [open, setOpen] = useState(false);
+  const navbarBackground = isTopOfPage ? "" : "bg-white/75";
 
   return (
-    <div className="absolute w-full z-50">
-      <nav className="md:flex justify-between space-y-8 md:space-y-0 bg-white md:bg-white/75 py-8 md:py-1 md:px-10 px-7">
+    <div className="absolute md:fixed w-full z-50">
+      <nav className={`md:flex justify-between space-y-8 md:space-y-0  py-8 md:py-1 md:px-10 px-7 ${navbarBackground} `}>
         <a
           href="#"
           className="font-bold text-2xl cursor-pointer flex items-center font-Lobster text-gray-800 drop-shadow-lg"
