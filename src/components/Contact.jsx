@@ -99,7 +99,7 @@ export const Contact = () => {
               Enviar Mensaje
             </button>
             <p className="grid place-items-start">
-              Enseguida se responderemos a:{" "}
+              Enseguida te responderemos a:{" "}
               <span className="text-pink-800 font-semibold">
                 {watch("email")}
               </span>

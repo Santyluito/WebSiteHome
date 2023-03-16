@@ -34,7 +34,7 @@ export const Gallery3 = () => {
               className="shadow py-2 px-3 text-sm md:text-lg md:py-4 md:px-8 hover:shadow-md hover:text-pink-700 hover:shadow-pink-700/20 transition duration-200"
               onClick={() => setData(GalleryData)}
             >
-              All
+              Todo
             </button>
           </li>
           {collection.map((col) => (

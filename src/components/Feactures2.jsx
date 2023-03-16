@@ -40,7 +40,7 @@ export const Feactures2 = () => {
             Casa en venta, Conjunto Mirador de Amagasi 1, Quito - Pichincha.
           </p>
           <p className="text-sm mb-4 text-gray-500">
-            Una vista espectacular, frescos, cómodos, con espacios amplios,
+            Una vista espectacular, tranquilo, cómodo, con espacios amplios,
             ideal para los que les gusta vivir muy bien, y está distribuido de
             la siguiente manera:
           </p>
@@ -82,7 +82,7 @@ export const Feactures2 = () => {
               <BiArea className="text-gray-700 text-xl mr-2" /> 122 M² Totales
             </li>
             <li className="flex items-center">
-              <BiArea className="text-gray-700 text-xl mr-2" /> 112 M² Totales
+              <BiArea className="text-gray-700 text-xl mr-2" /> 112 M² Interior
             </li>
             <li className="flex items-center">
               <BiCalendarAlt className="text-gray-700 text-xl mr-2" />11 Años Antigüedad
@@ -117,3 +117,11 @@ export const Feactures2 = () => {
     </section>
   );
 };
+
+
+import React from "react";
+import "tailwindcss/base.css";
+import "tailwindcss/components.css";
+import "tailwindcss/utilities.css";
+
+
